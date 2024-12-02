@@ -18,7 +18,7 @@ class Program
                 Console.WriteLine("Connexion réussie à la base de données.");
 
                 // Préparer une commande SQL
-                string query = "SELECT ProductID, ProductName, UnitPrice FROM Products";
+                string query = "SELECT ID, Product_Name, List_Price FROM Products";
                 MySqlCommand command = new MySqlCommand(query, connection);
 
                 // Exécuter la commande et lire les données
